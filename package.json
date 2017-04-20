@@ -12,9 +12,7 @@
     "prettier": "^1.2.2"
   },
   "scripts": {
-    "lint:format": "lint-staged",
-    "lint:validate": "eslint *.js",
-    "lint": "yarn lint:format && yarn lint:validate",
-    "precommit": "lint"
+    "lint": "lint-staged",
+    "precommit": "yarn lint"
   }
 }

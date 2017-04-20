@@ -1,3 +1,2 @@
-const a = 'foo';
-const b = 'bar';
-console.log(a, b);
+const foo = () => 'string';
+console.log('foo', foo);
